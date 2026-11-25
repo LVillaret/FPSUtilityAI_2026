@@ -9,10 +9,11 @@ namespace ZombieFPS
     {
         public void OnGameStart(DirectorContext context, DirectorActions actions)
         {
+            
         }
 
-        public void Tick(DirectorContext context, DirectorActions actions, float deltaTime)
-        {
+        public void Tick(DirectorContext context, DirectorActions actions, float deltaTime) {
+            actions.SpawnEnemy(EnemyType.Common, new SpawnPointInfo());
         }
     }
 }
