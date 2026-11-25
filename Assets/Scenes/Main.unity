@@ -12702,7 +12702,7 @@ MonoBehaviour:
   sprintSpeed: 8
   jumpHeight: 1.1
   gravity: -20
-  mouseSensitivity: 3.18
+  mouseSensitivity: 1
 --- !u!4 &929822243
 Transform:
   m_ObjectHideFlags: 0
